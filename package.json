@@ -4,8 +4,11 @@
   "description": "aplicacao_aula",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "servor --reload"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "servor": "^4.0.2"
+  }
 }
